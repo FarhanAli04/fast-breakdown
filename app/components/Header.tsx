@@ -69,11 +69,11 @@ export default function Header() {
               whileHover={{ scale: 1.1, rotate: 5 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
             >
-              {/* <motion.div
+              <motion.div
                 className="absolute -inset-2 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full opacity-0 group-hover:opacity-20 blur-xl"
                 animate={{ rotate: 360 }}
                 transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-              /> */}
+              />
               <Image
                 src="/logo.png"
                 alt="Fast Breakdown Recovery"
@@ -295,7 +295,7 @@ export default function Header() {
                   <div className="p-6 border-b border-gray-200">
                     <div className="flex items-center space-x-3">
                       <Image
-                        src="/logo.jpeg"
+                        src="/logo.png"
                         alt="Fast Breakdown Recovery"
                         width={40}
                         height={40}
